@@ -1,5 +1,7 @@
 export async function onLogin(event) {
+
     const loginBtn = document.getElementById('login-btn');
+
 
     loginBtn.addEventListener('click', async function (event) {
         const email = document.getElementById('email');
